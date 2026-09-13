@@ -1,0 +1,88 @@
+
+.main{
+    background-color: rgb(73, 10, 190);
+    text-align: center;
+    color: aliceblue;
+      font-family: sans-serif;
+}
+#number{
+     
+   width: 50px;
+  height: 50px;
+  
+  /* Step 2: Add the box border and background */
+  border: 2px solid #a09f9f;
+  
+  
+  /* Step 3: Center the number perfectly inside the box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Optional: Typography styling */
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  font-weight: 800;
+  color: aliceblue;
+  padding: 0%;
+  margin-top: 0px;
+  margin-bottom: 0%;
+  
+    
+}
+#div{
+ display: flex;
+  justify-content: center;
+  
+}
+#btn{
+  border-radius: 5px;
+  background-color: aliceblue;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #333;
+  font-weight: bold;
+  border: 3px solid #333;
+transition: transform 0.1s ease; 
+  
+}
+#btn:active {
+  transform: scale(0.95);
+}
+#main{
+  background-color: #e6e3e3;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+ 
+#length{
+  border-radius: 5px;
+  margin: 10px;
+ min-width: 90%;
+  border-color: #333;
+  background-color: #fafafa;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#volume{
+  border-radius: 5px;
+  margin: 10px;
+  min-width: 90%;
+  background-color: #fafafa;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mass{
+  border-radius: 5px;
+  margin: 10px;
+  min-width: 90%;
+  background-color: #fafafa;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
